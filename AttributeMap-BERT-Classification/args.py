@@ -3,7 +3,7 @@ import tensorflow as tf
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
-file_path = os.path.dirname(__file__)
+file_path = os.path.dirname(r"D:\deep_learning\nlp\data\word_embedding\BERT")
 
 model_dir = os.path.join(file_path, 'chinese_L-12_H-768_A-12/')
 config_name = os.path.join(model_dir, 'bert_config.json')
